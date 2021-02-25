@@ -1,6 +1,12 @@
 {
-    "rewrites": [
-        { "source": "/", "destination": "https://inmorphisdemosls7.service-now.com/" },
-        { "source": "/:match*", "destination": "https://inmorphisdemosls7.service-now.com/:match*" }
-    ]
-  }
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "https://inmorphisdemosls7.service-now.com/"
+    },
+    {
+      "source": "/:match*",
+      "destination": "https://inmorphisdemosls7.service-now.com/:match*"
+    }
+  ]
+}
